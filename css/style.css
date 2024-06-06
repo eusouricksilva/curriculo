@@ -29,12 +29,17 @@ ul{
 li{
     margin-bottom: 5px;
 }
-.email{
-    font-size: 15px;
+.email a{
+    text-decoration: none;
+    color:orange;
+    padding: 5px;
+    font-weight: bold;
 }
-a{
-    text-decoration: underline;
-    color: rgb(0, 0, 0);
+.telefone a{
+    text-decoration: none;
+    color: #25D366;
+    padding: 5px;
+    font-weight: bold;
 }
 p{
     text-align: justify;
