@@ -5,11 +5,23 @@
     padding: 0;
     font-family: Tahoma;
 }
-.contato, .resumo, .formacao, .experiencia, .certificacoes, .habilidades, .outros, .reconhecimentos, .sobre{
+main{
+    display: flex;
+    flex-direction: column;
     margin: 0 auto;
+    max-width: 1024px;
+    
+}
+.contato, .resumo, .formacao, .experiencia, .certificacoes, .habilidades, .outros, .reconhecimentos {
+    padding: 15px;
+    border-bottom: 1px solid black;
+    flex-grow: 1;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.sobre{
     padding: 15px;
 }
-
 h1{
     text-align: center;
     margin-bottom: 30px;
@@ -29,15 +41,9 @@ ul{
 li{
     margin-bottom: 5px;
 }
-.email a{
-    text-decoration: none;
-    color:orange;
-    padding: 5px;
-    font-weight: bold;
-}
-.telefone a{
-    text-decoration: none;
-    color: #25D366;
+.email a, .telefone a{
+    text-decoration:none;
+    color: black;
     padding: 5px;
     font-weight: bold;
 }
